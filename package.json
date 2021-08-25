@@ -1,0 +1,18 @@
+{
+  "name": "movieFinder",
+  "version": "1.0.0",
+  "default": "index.js",
+  "repository": "https://github.com/rohit063kr/movie-finder.git",
+  "author": "rohit <rohit063kr@gmail.com>",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir ./dist"
+  },
+  "devDependencies": {
+    "core-js": "^3.16.1",
+    "parcel": "^2.0.0-rc.0",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.37.5"
+  },
+  "license": "MIT"
+}
